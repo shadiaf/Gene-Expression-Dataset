@@ -13,7 +13,7 @@ This contains the following columns:
 - type: the type of sample, being either L (lesional derived keratinocytes) or NL (non lesional derived
 keratinocytes).
 
-3) results_L-vs-NL_full.csv : A comma-delimited file, which contains the results of the differential expression analysis of the two conditions under study (L vs NL) using DEseq2. The following three columns are needed for this exercise :
+3) results_L-vs-NL_full.csv : A comma-delimited file, which contains the results of the differential expression analysis of the two conditions under study (L vs NL) using DEseq2. The following three columns are needed for this exercise:
 - gene_ID: the gene ENSEMBL ID
 - log2FoldChange: the log2 of the Fold Change between conditions
 - padj: FDR corrected p-value
